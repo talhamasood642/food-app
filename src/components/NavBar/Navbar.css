@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+
+}
+
+.bg-dark {
+    background-color: black;
+}
+
+.nav-control {
+    margin-top: 20px;
+    display: flex;
+    background: wheat;
+    text-align: center;
+    height: 12vh;
+    display: flex;
+}
+
+
+.logo {
+
+    width: 20%;
+    z-index: 1;
+
+}
+
+.logo img {
+    height: 25vh;
+}
+
+.nav-list {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.nav-list li {
+    padding: 17px;
+    list-style: none;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: orange;
+}
+
+.nav-list li:hover {
+    border-bottom: 1px solid orange;
+
+}
+
+.search-bar {
+    text-align: end;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.search-bar input {
+    margin-right: 10px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black
+}
+
+.search-bar button {
+    border-radius: 8px;
+    height: 35px;
+    width: 70px;
+    background: transparent;
+    border: 0;
+    border: 3px solid orange;
+}
+
+.search {
+    padding-right: 20px;
+
+}
+
+.search-bar button:hover {
+    background-color: orange;
+    color: white;
+}
+
+/* .icon{
+        width: 20vw;
+    } */
+
+
+.section-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    width: 98vw;
+}
+
+
+.text {
+    width: 50%;
+    padding: 30px;
+}
+
+.btn .check {
+    margin-left: 10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: orange;
+    border: 1px solid orange;
+    outline: none;
+}
+
+.btn .order {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border: 1px solid red;
+}
+
+.btn .order:hover {
+    background-color: red;
+}
+
+.order {
+
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+
+.home-img img {
+    border-radius: 10px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    width: 20vw;
+    justify-content: end;
+    text-align: end;
+}
+
+
+.cart {
+    text-decoration: none;
+    color: black;
+
+}
+
+.cart:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+.plus {
+    padding-left: 25px;
+}
+
+.plus:hover {
+    cursor: pointer;
+    color: blue;
+}

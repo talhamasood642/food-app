@@ -1,0 +1,132 @@
+*{
+    padding: 0%;
+    margin: 0%;
+   
+}
+
+.shopping{
+    
+    width: 80vw;
+    height: 90vh;
+    /* display: flex; */
+    position: relative;
+    top: 7vh;
+    left: 10vw;
+}
+.first-sec{
+    padding: 5px ;
+    height: 5vh;
+    display: flex;
+    width: 90vw;
+}
+.first-sec h4{
+    font-size: 20px;
+    width:50vw;
+}
+
+.second-sec{
+  padding-top: 20px;  
+  display: flex;
+}
+
+.left{
+    width: 50vw;
+}
+
+.clear-btn{
+   
+    text-align: center;
+    padding-left: 30%;
+}
+
+
+
+.third-sec{
+    background: rgb(235, 233, 233);
+    border-radius: 10px;
+    height: 60vh;
+    width: 82vw;
+    overflow-y: scroll;
+}
+
+
+.final-sec{
+    padding-left: 40px;
+    margin-top: 20px;
+    display: flex;
+    width: 80vw;    
+    align-items: center;
+    height: 17vh;
+}
+
+.cart-img{
+   width: 20vw;
+}
+
+.cart-img img{
+    border-radius: 10px;
+    height: 20vh;
+ }
+
+.product-name{
+    width: 20vw;
+}
+
+
+.inc-dec{
+    width: 20%;
+}
+
+.inc-dec input{
+    width: 50px;
+    text-align: center;
+}
+
+.price{
+    width: 15vw;
+}
+
+.inc-dec button{
+    padding: 20px;
+    border: none;
+    background: transparent;
+}
+
+.delete-btn button{
+     border: none;
+     background: transparent;
+     
+}
+
+.line hr{
+    width: 75vw;
+    display: flex;
+    margin-left: 30px;
+}
+
+.back-arrow{
+   
+    width: 40px;
+}
+
+.inbox{
+  
+    margin-left: 30%;
+}
+.clear-btn{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    height: 5vh;
+}
+
+.clear-btn button {
+    width: 30%;
+    margin-left: 20px;
+}
+
+.clear-btn .amount{
+    background-color:  rgb(59, 59, 241);
+    color: white;
+    width: 30vw;
+}
